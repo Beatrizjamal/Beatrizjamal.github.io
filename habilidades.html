@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beatriz - Habilidades</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #f9f6fb;
+      color: #4a4a4a;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header{
+      background: #d8bfd8;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    nav{
+      max-width: 900px;
+      width: 100%;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+    }
+    nav a{
+      text-decoration: none;
+      color: #5a3e6d;
+      font-weight: 600;
+      padding: 0.3rem 0.8rem;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    nav a:hover,
+    nav a.active{
+      background-color: #a487b8;
+      color: white;
+    }
+
+    .logo-container {
+      margin-top: 1rem;
+    }
+
+    .logo-container img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #a487b8;
+      box-shadow: 0 2px 8px rgba(164, 134, 184, 0.4);
+    }
+
+    main{
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 3rem auto;
+      background: white;
+      padding: 2.5rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(164, 134, 184, 0.25);
+    }
+    h2{
+      color: #5a3e6d;
+      font-weight: 700;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    ul{
+      max-width: 700px;
+      margin: 0 auto;
+      list-style-type: none;
+      padding: 0;
+      color: #6b5978;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    ul li{
+      padding: 12px 20px;
+      margin-bottom: 15px;
+      background: #f0e6f3;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(164, 134, 184, 0.15);
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+    ul li:hover{
+      background-color: #d8bfd8;
+      color: #4a2d5a;
+    }
+    footer{
+      background: #d8bfd8;
+      text-align: center;
+      padding: 1.2rem 0;
+      color: #5a3e6d;
+      font-weight: 600;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+      margin-top: auto;
+    }
+    @media (max-width: 600px){
+      main {
+        margin: 2rem 1rem;
+        padding: 1.5rem 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Sobre mim</a>
+      <a href="habilidades.html" class="active">Habilidades</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="logo-container">
+      <img src="https://i.imgur.com/lHFRlra.jpeg" alt="Beatriz Logo" />
+    </div>
+  </header>
+
+  <main>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Logica de programação</li>
+      <li>html, css</li>
+      <li>Banco de dados</li>
+      <li>Php</li>
+      <li>Javascript</li>
+      <li>Trabalho em equipe e comunicação</li>
+      <li>Boa comunicação</li>
+      <li>responsabilidade</li>
+      <li>Organização</li>
+    </ul>
+  </main>
+
+  <footer>
+    © 2025 ~ Beatriz ~
+  </footer>
+</body>
+</html>
